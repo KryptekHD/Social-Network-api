@@ -1,17 +1,20 @@
 {
-  "name": "social-network-api",
+  "name": "nosql-social",
   "version": "1.0.0",
-  "description": "",
+  "description": "Goal is to create a social network API that uses a NoSQL database",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "dev": "nodemon index",
-    "seed": "node utils/seed",
-    "heroku-postbuild": "node utils/seed.js"
+    "seed": "node utils/seed"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^6.0.13"
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.9"
